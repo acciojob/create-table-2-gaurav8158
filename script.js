@@ -8,7 +8,7 @@ function createTable() {
 		table.insertRow();
 		for(let j=0;j<column;j++){
 const cell = table.rows[i].insertCell();
-				cell.textContent = "Row-"+i+"Column-"+j;
+				cell.textContent = "Row-"+i+" Column-"+j;
 		}
 	}
 }
